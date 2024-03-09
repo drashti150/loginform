@@ -74,7 +74,7 @@ function validateLoginForm() {
         if (user) {
             localStorage.setItem("userId", user["id"]);
             alert("Login Successfully!", user.id);
-            window.location.href = "loginTodo.html";
+            // window.location.href = "loginTodo.html";
         } else {
             alert("Invalid Email or Password.");
         };
